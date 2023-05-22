@@ -26,10 +26,12 @@
             <h2>Les paragraphes</h2>
             <p>Pour créer des paragraphes nous allons utiliser la balise p</p>
             <p>
+                <!-- La balise <strong>  indique que le contenu est d'une importance plus élevée.  -->
+                <!-- La balise <em>  indique que le texte doit être mis en valeur d'une manière différente du texte environnant.  -->
                 Pour chaque nouveau <strong>paragraphe</strong> , un retour à la
                 ligne est crée <span>automatiquement</span> par votre
                 <em>navigateur</em>
-                <!-- La balise <br> permet de faire un retour à la ligne dans un paragraphe -->
+                <!-- La balise <br> permet de faire un retour à la ligne dans un paragraphe ou un texte -->
                 <br />
                 (exactement comme avec les titres)
             </p>
@@ -43,7 +45,12 @@
 
             <!-- liste non ordonnée (ul, unordered list) -->
             <ul>
-                <li>Homer</li>
+                <li>
+                    <!-- Une liste peut être composé d'images, de liens cliquables, etc... -->
+                    <a href="https://www.wikiwand.com/fr/Homer_Simpson">
+                        Homer
+                    </a>
+                </li>
                 <li>Marge</li>
                 <li>Bart</li>
                 <li>Lisa</li>
@@ -63,8 +70,9 @@
 
         <div>
             <h2>Les images</h2>
-            <!-- Si l'image manque, la valeur de l'attribut alt s'affiche -->
             <img src="./img/portrait.jpg" alt="un magnifique portrait" />
+            <!-- Si l'image manque, la valeur de l'attribut alt="" s'affiche -->
+            <!-- il est dit obligatoire et sert pour l'accessibilité et donc le référencement -->
             <img
                 src="img/error.png"
                 alt="Je suis le message qui s'affiche quand l'image n'est pas presente "
@@ -88,6 +96,11 @@
 
             <!-- lien pour envoyer un mail -->
             <a href="mailto:edjek@hotmail.fr">admin@gmail.com</a>
+
+            <!-- Je peux rendre cliquable une image ou ce que je souhaite -->
+            <a href="https://www.doranco.fr/">
+                <img src="./img/portrait.jpg" alt="" />
+            </a>
         </div>
     </body>
 </html>
