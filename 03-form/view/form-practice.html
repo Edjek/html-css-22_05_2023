@@ -10,14 +10,14 @@
     <body>
         <div>
             <h1>Nouvel exercice</h1>
-            <form action="">
+            <form>
                 <div>
                     <label for="pseudo">Pseudo</label>
-                    <input type="text" id="pseudo">
+                    <input type="text" id="pseudo" required autofocus>
                 </div>
                 <div>
                     <label for="password">Password</label>
-                    <input type="password" id="password">
+                    <input type="password" id="password" required>
                 </div>
                 <div>
                     <label for="email">Email</label>
@@ -43,12 +43,17 @@
                 </div>
                 <div>
                     <span>Sport pratiqué :</span>
-                    <input type="checkbox" id="karate">
+                    <input type="checkbox" id="karate" value="karate">
                     <label for="karate">karaté</label>
-                    <input type="checkbox" id="tennis">
+                    <input type="checkbox" id="tennis" value="tennis">
                     <label for="tennis">tennis</label>
                 </div>
-                <input type="submit">
+                <div>
+                    <label for="download">Télécharger</label>
+                    <input type="file" id="download">
+                </div>
+                <input type="submit" value="Envoyer">
+                <input type="reset" name="" id="">
             </form>
         </div>
     </body>
