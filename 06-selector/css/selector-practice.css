@@ -1,0 +1,19 @@
+h1 {
+    color: pink;
+}
+
+h2 {
+    color: blue;
+}
+
+.txt-red {
+    color: red;
+}
+
+h4, .list-sports {
+    color: orange;
+}
+
+ol li {
+    color: green;
+}
