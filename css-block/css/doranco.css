@@ -1,0 +1,31 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* valeur par defaut */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e4e4e;
+}
+
+/* 
+largeur 90%, centré
+hauteur minimum de 300px
+marge interne en haut et en bas de 20px
+*/
+.about-us {
+    background-color: pink;
+    text-align: center;
+}
+/* taille du taille 28px */
+.about-us h2 {
+    text-transform: uppercase;
+}
+/* paragraphe
+taile du texte de 14 px
+espacement entre les paragraphe de 15px
+ */
+ /* lien  change de couleur au survol */

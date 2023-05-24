@@ -1,0 +1,73 @@
+/* * signifie que cela s'applique à tous les selecteurs */
+/* on reset les valeurs par défaut du navigateur */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* On cible body pour faire hériter en cascade certaines propriétés générales pour toute la page (couleur de texte, police de caractère */
+body {
+    font-size: 20px;
+}
+
+h1 {
+    width: 80%;
+    min-height: 200px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(59, 119, 231);
+    border: 5px solid #333;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    /* valeur par defaut d'un element block */
+    /* display: block; */
+    background-color: rgb(97, 162, 81);
+    color: #fff;
+
+    /* Largeur */
+    /* Par défaut la valeur est sur auto { width: 100%; } */
+    width: 400px;
+
+    /* Hauteur */
+    /* Par défaut la valeur est sur auto { height: auto; } */
+    /* height: 300px; */
+    min-height: 300px;
+
+    /* Margin sert à mettre de la marge exterieur, il y a plein de raccourcis */
+    /* margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px; */
+    margin: 50px auto;
+
+    /* Padding sert à mettre de la marge intérieur, il y a plein de raccourcis */
+    /* padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px; */
+    padding: 50px;
+
+    /* La propriété raccourci { border: 1px solid #000; } permet de preciser la taille, le style et la couleur de la bordure */
+    border: 1px solid #000;
+
+    /* { box-shadow: }  permet de créer une ombre */
+    border-radius: 20px;
+
+    /* { box-shadow: }  permet de créer une ombre */
+    box-shadow: 4px 10px 10px #00000065;
+}
+
+.circle {
+    background-color: #eb5858;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 4px 8px 18px rgba(0, 0, 0, 0.5);
+}
