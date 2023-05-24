@@ -33,9 +33,9 @@ img {
 
 /* HERO */
 .hero {
-    display: block;
     background-color: pink;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.571),transparent), url(../img/business-1920x1080.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.571), transparent),
+        url(../img/business-1920x1080.jpg);
     background-size: cover;
     background-position: center;
     /* background-repeat: no-repeat; */
