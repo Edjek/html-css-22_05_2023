@@ -15,7 +15,7 @@ h1 {
     width: 80%;
     min-height: 200px;
     margin: 50px auto;
-    padding: 30px;
+    padding: 50px;
     border-radius: 10px;
     background-color: rgb(59, 119, 231);
     border: 5px solid #333;
@@ -54,7 +54,7 @@ h1 {
     padding: 50px;
 
     /* La propriété raccourci { border: 1px solid #000; } permet de preciser la taille, le style et la couleur de la bordure */
-    border: 1px solid #000;
+    border: 5px solid #333;
 
     /* { box-shadow: }  permet de créer une ombre */
     border-radius: 20px;

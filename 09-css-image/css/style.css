@@ -5,10 +5,10 @@
     box-sizing: border-box;
 }
 
-/* Valeurs par defaut */
+/* valeur par defaut */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #4e4e4e;
+    color: #333;
 }
 
 a {
@@ -19,81 +19,61 @@ img {
     display: block;
 }
 
-/* COMPONENTS */
 .btn {
-    background-color: red;
-    border-radius: 5px;
     padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(199, 55, 55);
     color: #fff;
 }
 
 .txt-upper {
     text-transform: uppercase;
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
 }
 
 /* HERO */
 .hero {
     display: block;
     background-color: pink;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.571),transparent), url(../img/business-1920x1080.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.571), transparent),
+        url(../img/business-1920x1080.jpg);
     background-size: cover;
     background-position: center;
     /* background-repeat: no-repeat; */
     width: 90%;
-    min-height: 300px;
+    min-height: 350px;
     margin: 50px auto;
-    padding: 50px 20px;
+    padding: 80px 20px;
     text-align: center;
     color: #fff;
 }
 
-.hero h1 {
-    margin-bottom: 50px;
+.hero h2 {
+    margin-bottom: 100px;
+    font-size: 35px;
 }
 
-/* ABOUT US */
-.about-us {
-    text-align: center;
-    width: 90%;
-    min-height: 300px;
-    margin: 50px auto;
-    padding: 50px 0;
-}
 
-.about-us h2 {
-    font-size: 28px;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-}
-
-.about-us p {
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-
-.about-us a {
-    color: rgb(190, 58, 58);
-}
-
-.about-us a:hover {
-    color: rgba(190, 58, 58, 0.7);
-}
-
+/* IMAGE 1 */
 .portrait {
     width: 300px;
     height: 300px;
     object-fit: cover;
     object-position: top;
     margin: auto;
-    box-shadow: 8px 16px 16px rgba(0, 0, 0, 0.3);
 }
 
+/* IMAGE 2 */
 .container-2 {
     width: 300px;
     height: 300px;
     margin: 50px auto;
     background-color: pink;
-    box-shadow: 8px 16px 16px rgba(0, 0, 0, 0.3);
 }
 
 .portrait-2 {
