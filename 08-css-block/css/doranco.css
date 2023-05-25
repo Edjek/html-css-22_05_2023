@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 /* Reset */
 * {
     margin: 0;
@@ -7,7 +9,7 @@
 
 /* Valeurs par defaut */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     color: #4e4e4e;
 }
 
@@ -49,6 +51,8 @@ img {
 
 .hero h1 {
     margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 /* ABOUT US */

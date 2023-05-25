@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* COMPONENTS */
+.btn {
+    color: #fff;
+    background-color: #0a2b19;
+    padding: 20px 60px;
+    border-radius: 5px;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a2b19;
+    height: 65px;
+    padding: 0 60px;
+}
+
+header a {
+    color: #fff;
+}
+
+.logo {
+    font-size: 35px;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+/* HERO SECTION */
+.hero {
+    background-color: pink;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), transparent), url(../img/eiffel-tower-1920x1280.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+.hero h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.hero p {
+    font-style: italic;
+}

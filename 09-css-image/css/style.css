@@ -40,7 +40,7 @@ h1 {
 .hero {
     /* BACKGROUND-IMAGE */
     /* linear-gradient permet de mettre un overlay (un voile au-dessus) pour que le texte soit lisible */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.571), transparent),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
         url(../img/business-1920x1080.jpg);
     background-size: cover;
     /* Par defaut background-position est sur top left */
