@@ -5,6 +5,13 @@
 }
 
 body {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
 }
 
 .container {
@@ -43,6 +50,7 @@ body {
 
 .item-2 {
     display: flex;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     gap: 5px;
 }
