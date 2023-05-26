@@ -111,6 +111,8 @@ nav {
 
 .form-contact {
     width: 80%;
+    max-width: 750px;
+    min-width: 400px;
     min-height: 300px;
     margin: 50px auto;
     padding: 20px;
